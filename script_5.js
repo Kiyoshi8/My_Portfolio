@@ -49,7 +49,7 @@ ScrollReveal().reveal('.home-content h2, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
 
 
-/*=== typed js ====*/
+/*=============== typed js ===============*/
 const typed = new Typed ('.multiple-text', {
     strings: ['Data Scientist', 'Data Analyst', 'Frontend Developer'],
     typeSpeed: 100,
@@ -58,7 +58,7 @@ const typed = new Typed ('.multiple-text', {
     loop: true
 });
 
-/*=== contact js ===*/
+/*=========== contact js ===============*/
 function sendMail(){
     var params = {
         FullName: document.getElementById("Full Name").value,
