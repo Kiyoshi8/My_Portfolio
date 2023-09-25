@@ -186,6 +186,10 @@ span {
     margin-bottom: 2rem;
 }
 
+.about-content a {
+    color: blue;
+}
+
 .about-img img {
     width: 20vw;
     border-radius: 300px;
